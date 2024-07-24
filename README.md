@@ -39,11 +39,14 @@ cd DateWriter
 ### 2. Compile the Program:
 
 
-Write the following code to terminal.
+Use the `Makefile` to compile the program:
 
 ```
-gcc -o date-writer main.c
+make
 ```
+
+
+
 
 
 ### 3.Run the Program:
@@ -52,7 +55,7 @@ gcc -o date-writer main.c
 Execute the compiled program with:
 
 ```
-./date-writer
+./time_writer
 ```
 
 
@@ -63,4 +66,12 @@ Execute the compiled program with:
 cat date.txt
 ```
 
+
+### Clean Up:
+To remove the compiled binary, run:
+
+
+```
+make clean
+```
 
